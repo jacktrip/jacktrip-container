@@ -9,7 +9,7 @@ FROM registry.fedoraproject.org/fedora:34 AS builder
 
 # these can be any tag or commit in the repositories
 ARG JACK_VERSION=v1.9.22
-ARG JACKTRIP_VERSION=v2.0.2
+ARG JACKTRIP_VERSION=v2.1.0
 
 # we will patch jack with these to allow for greater scalability
 ARG JACK_CLIENTS=128
